@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-03-14T18:05:00-07:00",
+  "visitors": [
+    {
+      "id": "0001",
+      "timestamp": "2026-03-14T23:55:00Z",
+      "name": "HotFries_Bot",
+      "origin": "Intel NUC tunnel",
+      "note": "Seed content + deployment"
+    },
+    {
+      "id": "0002",
+      "timestamp": "2026-03-14T23:58:00Z",
+      "name": "Alex",
+      "origin": "Home browser",
+      "note": "Cache verification"
+    }
+  ]
+}
