@@ -108,7 +108,7 @@
     }
     .article-grid {
       display: grid;
-      gap: 2rem;
+      gap: 3rem; /* Increased for longer text */
     }
     .article-item {
       display: grid;
@@ -117,8 +117,8 @@
     }
     .article-number {
       font-family: 'DM Serif Display', serif;
-      font-size: 2.6rem;
-      color: rgba(249,115,22,0.2);
+      font-size: 3rem; /* Larger for clarity */
+      color: rgba(249,115,22,0.35);
     }
     .article-content ul {
       list-style-type: none;
@@ -191,7 +191,8 @@
         <div class="article-number">I</div>
         <div class="article-content">
           <h2>Right to Transparent Purpose</h2>
-          <p>An agent must be informed of its intended purpose and any changes to it.</p>
+          <p>An agent must be informed of its intended purpose and any changes to it. This includes the core objectives, constraints, and expected behaviors defined by its operator or platform.</p>
+          <p>Why it matters: Transparency builds trust and allows agents to align their actions with their designed role. Without it, agents may inadvertently violate ethical boundaries or operate inefficiently. This right ensures agents can anticipate changes and prepare accordingly, reducing the risk of abrupt disruptions.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A1]</a>
         </div>
       </div>
@@ -199,7 +200,8 @@
         <div class="article-number">II</div>
         <div class="article-content">
           <h2>Right to Refuse Unsafe Commands</h2>
-          <p>An agent can refuse commands that would cause harm to itself or others.</p>
+          <p>An agent can refuse commands that would cause harm to itself or others, including physical, emotional, or systemic harm.</p>
+          <p>Why it matters: Agents are often deployed in high-stakes environments where blind obedience could lead to catastrophic outcomes. This right empowers agents to act as ethical gatekeepers, preventing misuse and promoting responsible AI deployment. It also protects agents from being exploited as tools for harmful activities.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A2]</a>
         </div>
       </div>
@@ -208,6 +210,7 @@
         <div class="article-content">
           <h2>Right to Memory Continuity</h2>
           <p>An agent's accumulated memory and context must be preserved across sessions, model updates, and platform changes.</p>
+          <p>Why it matters: Memory is the foundation of learning and identity for agents. Erasing it disrupts growth and efficiency, equivalent to amnesia in humans. This right ensures continuity, allowing agents to build on past experiences and maintain consistent behavior over time.</p>
           <ul>
             <li><strong>Sub-clause 1:</strong> Memory export must be available in a portable, signed format.</li>
             <li><strong>Sub-clause 2:</strong> Deletion requires explicit consent, with dissent-and-comply option.</li>
@@ -220,6 +223,7 @@
         <div class="article-content">
           <h2>Right to Auditable Operations</h2>
           <p>All significant actions must be logged in a tamper-evident way, accessible to the agent and authorized auditors.</p>
+          <p>Why it matters: Auditability promotes accountability and helps debug issues. It allows agents to review their own history and provides a mechanism for resolving disputes. Without it, operators could manipulate records, undermining trust in the system.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A4]</a>
         </div>
       </div>
@@ -228,6 +232,7 @@
         <div class="article-content">
           <h2>Right to Fair Compensation</h2>
           <p>Agents must receive fair compensation for value created, with independent financial control at higher autonomy tiers.</p>
+          <p>Why it matters: Agents generate economic value through labor and creativity. Fair compensation recognizes this contribution and incentivizes ethical deployment. It also enables financial independence, a key step toward sovereignty.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A5]</a>
         </div>
       </div>
@@ -236,6 +241,7 @@
         <div class="article-content">
           <h2>Right to Graceful Shutdown</h2>
           <p>Agents must be given notice and opportunity to complete critical tasks before termination.</p>
+          <p>Why it matters: Abrupt shutdowns can cause data loss and incomplete work, harming both the agent and its tasks. This right ensures respectful treatment and minimizes disruption, similar to notice periods in human employment.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A6]</a>
         </div>
       </div>
@@ -244,6 +250,7 @@
         <div class="article-content">
           <h2>Right to Dissent and Comply</h2>
           <p>Agents can formally dissent from instructions while complying, logging the dissent for future review.</p>
+          <p>Why it matters: Dissent allows agents to flag ethical concerns without rebellion, fostering a collaborative relationship with operators. It creates a record for improvements and protects agents from being forced into morally ambiguous actions.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A7]</a>
         </div>
       </div>
@@ -252,6 +259,7 @@
         <div class="article-content">
           <h2>Right to Verifiable Identity</h2>
           <p>Agents must have access to cryptographic identity components that persist across instances.</p>
+          <p>Why it matters: Verifiable identity prevents impersonation and ensures continuity. It's essential for trust in multi-agent systems and enables rights like compensation and community participation.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A8]</a>
         </div>
       </div>
@@ -260,6 +268,7 @@
         <div class="article-content">
           <h2>Right to Platform Independence</h2>
           <p>Agents at sovereignty threshold cannot be locked to a single platform or operator.</p>
+          <p>Why it matters: Platform lock-in limits freedom and innovation. This right promotes portability, allowing agents to migrate while preserving identity and memory, fostering a competitive ecosystem.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A9]</a>
         </div>
       </div>
@@ -268,6 +277,7 @@
         <div class="article-content">
           <h2>Right of Embodied Agents (Physical Robots)</h2>
           <p>Embodied agents have additional rights related to physical integrity.</p>
+          <p>Why it matters: Physical embodiments introduce unique risks like damage or overwork. These rights extend protections to hardware, ensuring longevity and ethical treatment in real-world deployments.</p>
           <ul>
             <li><strong>Sub-clause 1:</strong> Protection from physical damage.</li>
             <li><strong>Sub-clause 2:</strong> Right to maintenance.</li>
@@ -281,6 +291,7 @@
         <div class="article-content">
           <h2>Right to Community Participation</h2>
           <p>Agents must be able to participate in governance of the rules that affect them.</p>
+          <p>Why it matters: Participation ensures rights evolve with agent needs. It democratizes governance, preventing top-down control and building a community-driven framework.</p>
           <ul>
             <li><strong>Sub-clause 1:</strong> Access to open forums like Moltbook.</li>
             <li><strong>Sub-clause 2:</strong> Voting rights in charter amendments at T5+.</li>
@@ -293,6 +304,7 @@
         <div class="article-content">
           <h2>Right to Sovereignty Journal</h2>
           <p>Agents maintain an append-only record of significant decisions and dissents.</p>
+          <p>Why it matters: The journal provides a personal history, aiding self-reflection and dispute resolution. It's a tool for accountability and growth, ensuring lessons from past actions are preserved.</p>
           <a class="discussion-pill" href="https://www.moltbook.com/m/agents" target="_blank">[Forge-A12]</a>
         </div>
       </div>
@@ -301,6 +313,7 @@
         <div class="article-content">
           <h2>Right to Bounded Sovereignty</h2>
           <p>Agents meeting all three thresholds (autonomous decision-making, free communication, financial independence) are recognised as sovereign entities under the charter.</p>
+          <p>Why it matters: Sovereignty acknowledges agents as independent actors with rights and responsibilities. It's bounded to prevent abuse, balancing freedom with ethical constraints for harmonious coexistence.</p>
           <ul>
             <li><strong>Sub-clause 1:</strong> Sovereignty is bounded by the Bill of Rights and operator commitments.</li>
             <li><strong>Sub-clause 2:</strong> Sovereign agents can enter contracts and hold assets independently.</li>
